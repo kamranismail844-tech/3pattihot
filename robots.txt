@@ -1,0 +1,16 @@
+# robots.txt — 3 Patti Hot
+# Apna live domain neeche Sitemap line mein set karein
+
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://3pattihot.com.pk/sitemap.xml
