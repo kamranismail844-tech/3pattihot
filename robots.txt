@@ -1,0 +1,49 @@
+User-Agent: *
+Allow: /
+
+# --- Core pages ---
+Allow: /index.html
+
+# --- Keep private / low-value params out of the index ---
+Disallow: /?s=
+Disallow: /?utm_
+Disallow: /search
+Disallow: /cgi-bin/
+Disallow: /*.json$
+
+# --- Search engines we welcome for AI Overviews / answer features ---
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# --- Explicit permits (friendly crawlers) ---
+User-Agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-Agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-Agent: DuckDuckBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+# --- Nuisance / scraper bots ---
+User-Agent: AhrefsBot
+Disallow: /
+User-Agent: SemrushBot
+Disallow: /
+User-Agent: MJ12bot
+Disallow: /
+User-Agent: DotBot
+Disallow: /
+User-Agent: DataForSeoBot
+Disallow: /
+
+Sitemap: https://3pattihot.shop/sitemap.xml
+Host: https://3pattihot.shop
